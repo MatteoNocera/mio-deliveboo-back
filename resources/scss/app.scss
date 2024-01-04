@@ -1,0 +1,65 @@
+@import '~bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/* #region Color palette */
+
+$light-pink: #ffadad;
+$orange: #ffd6a5;
+$dark-pink: #eb585b;
+$yellow: #fdffb6;
+
+.bg_my_light-pink {
+    background-color: $light-pink;
+}
+
+.bg_my_orange {
+    background-color: $orange;
+}
+
+.bg_my_dark-pink {
+    background-color: $dark-pink;
+}
+
+.bg_my_yellow {
+    background-color: $yellow;
+}
+
+/* Font */
+
+* {
+    font-family: 'Bree Serif', serif;
+}
+
+/* .my_font {
+    font-family: 'Bree Serif', serif;
+} */
+
+header,
+#sidebarMenu {
+    background-color: $orange;
+
+    .my_logo_title {
+        color: $dark-pink;
+    }
+}
+
+.back_image {
+
+    background-color: $light-pink;
+    // margin-left: -1px;
+
+    /* background-image: url('../storage/img/sfondo-pollo.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat; */
+}
+
+.card {
+    background-color: $orange;
+}
+
+.my_badge {
+    background-color: $dark-pink;
+    color: black;
+}
